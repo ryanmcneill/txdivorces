@@ -1,0 +1,8 @@
+This is a work-in-progress script meant to help reporters download the Texas Divorce Index files. 
+
+A similar script to download Texas marriages will also be available soon. 
+
+Future features:
+--- Check the directory to make sure the file hasn't already been downloaded. 
+--- Unzipping and parsing the file. 
+--- DBM connectivity. 

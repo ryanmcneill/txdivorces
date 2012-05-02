@@ -5,6 +5,10 @@ require 'open-uri'
 #change this to the directory where you'd like to store the files
 my_directory = 'E:/Data/DSHS/Divorces/'
 
+#some directory handling here
+Dir.chdir(my_directory)
+
+
 my_agent = Mechanize.new
 
 #this is the home of the Texas divorces index
